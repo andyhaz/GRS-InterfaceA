@@ -14,6 +14,8 @@
 		977A1E752B97A8CD007BBD6F /* GRS_InterfaceATests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 977A1E742B97A8CD007BBD6F /* GRS_InterfaceATests.swift */; };
 		977A1E7F2B97A8CD007BBD6F /* GRS_InterfaceAUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 977A1E7E2B97A8CD007BBD6F /* GRS_InterfaceAUITests.swift */; };
 		977A1E812B97A8CD007BBD6F /* GRS_InterfaceAUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 977A1E802B97A8CD007BBD6F /* GRS_InterfaceAUITestsLaunchTests.swift */; };
+		977A1E8E2B97B07D007BBD6F /* canvase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 977A1E8D2B97B07D007BBD6F /* canvase.swift */; };
+		977A1E902B97B0E9007BBD6F /* tools.swift in Sources */ = {isa = PBXBuildFile; fileRef = 977A1E8F2B97B0E9007BBD6F /* tools.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +47,8 @@
 		977A1E7A2B97A8CD007BBD6F /* GRS InterfaceAUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "GRS InterfaceAUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		977A1E7E2B97A8CD007BBD6F /* GRS_InterfaceAUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GRS_InterfaceAUITests.swift; sourceTree = "<group>"; };
 		977A1E802B97A8CD007BBD6F /* GRS_InterfaceAUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GRS_InterfaceAUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		977A1E8D2B97B07D007BBD6F /* canvase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = canvase.swift; sourceTree = "<group>"; };
+		977A1E8F2B97B0E9007BBD6F /* tools.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tools.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +79,8 @@
 		977A1E562B97A8CB007BBD6F = {
 			isa = PBXGroup;
 			children = (
+				977A1E8F2B97B0E9007BBD6F /* tools.swift */,
+				977A1E8D2B97B07D007BBD6F /* canvase.swift */,
 				977A1E612B97A8CB007BBD6F /* GRS InterfaceA */,
 				977A1E732B97A8CD007BBD6F /* GRS InterfaceATests */,
 				977A1E7D2B97A8CD007BBD6F /* GRS InterfaceAUITests */,
@@ -260,7 +266,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				977A1E652B97A8CB007BBD6F /* ContentView.swift in Sources */,
+				977A1E8E2B97B07D007BBD6F /* canvase.swift in Sources */,
 				977A1E632B97A8CB007BBD6F /* GRS_InterfaceAApp.swift in Sources */,
+				977A1E902B97B0E9007BBD6F /* tools.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
