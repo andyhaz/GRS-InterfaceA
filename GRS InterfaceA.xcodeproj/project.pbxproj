@@ -1,0 +1,586 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		977A1E632B97A8CB007BBD6F /* GRS_InterfaceAApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 977A1E622B97A8CB007BBD6F /* GRS_InterfaceAApp.swift */; };
+		977A1E652B97A8CB007BBD6F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 977A1E642B97A8CB007BBD6F /* ContentView.swift */; };
+		977A1E672B97A8CD007BBD6F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 977A1E662B97A8CD007BBD6F /* Assets.xcassets */; };
+		977A1E6A2B97A8CD007BBD6F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 977A1E692B97A8CD007BBD6F /* Preview Assets.xcassets */; };
+		977A1E752B97A8CD007BBD6F /* GRS_InterfaceATests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 977A1E742B97A8CD007BBD6F /* GRS_InterfaceATests.swift */; };
+		977A1E7F2B97A8CD007BBD6F /* GRS_InterfaceAUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 977A1E7E2B97A8CD007BBD6F /* GRS_InterfaceAUITests.swift */; };
+		977A1E812B97A8CD007BBD6F /* GRS_InterfaceAUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 977A1E802B97A8CD007BBD6F /* GRS_InterfaceAUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		977A1E712B97A8CD007BBD6F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 977A1E572B97A8CB007BBD6F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 977A1E5E2B97A8CB007BBD6F;
+			remoteInfo = "GRS InterfaceA";
+		};
+		977A1E7B2B97A8CD007BBD6F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 977A1E572B97A8CB007BBD6F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 977A1E5E2B97A8CB007BBD6F;
+			remoteInfo = "GRS InterfaceA";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		977A1E5F2B97A8CB007BBD6F /* GRS InterfaceA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GRS InterfaceA.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		977A1E622B97A8CB007BBD6F /* GRS_InterfaceAApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GRS_InterfaceAApp.swift; sourceTree = "<group>"; };
+		977A1E642B97A8CB007BBD6F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		977A1E662B97A8CD007BBD6F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		977A1E692B97A8CD007BBD6F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		977A1E6B2B97A8CD007BBD6F /* GRS_InterfaceA.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = GRS_InterfaceA.entitlements; sourceTree = "<group>"; };
+		977A1E702B97A8CD007BBD6F /* GRS InterfaceATests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "GRS InterfaceATests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		977A1E742B97A8CD007BBD6F /* GRS_InterfaceATests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GRS_InterfaceATests.swift; sourceTree = "<group>"; };
+		977A1E7A2B97A8CD007BBD6F /* GRS InterfaceAUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "GRS InterfaceAUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		977A1E7E2B97A8CD007BBD6F /* GRS_InterfaceAUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GRS_InterfaceAUITests.swift; sourceTree = "<group>"; };
+		977A1E802B97A8CD007BBD6F /* GRS_InterfaceAUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GRS_InterfaceAUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		977A1E5C2B97A8CB007BBD6F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		977A1E6D2B97A8CD007BBD6F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		977A1E772B97A8CD007BBD6F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		977A1E562B97A8CB007BBD6F = {
+			isa = PBXGroup;
+			children = (
+				977A1E612B97A8CB007BBD6F /* GRS InterfaceA */,
+				977A1E732B97A8CD007BBD6F /* GRS InterfaceATests */,
+				977A1E7D2B97A8CD007BBD6F /* GRS InterfaceAUITests */,
+				977A1E602B97A8CB007BBD6F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		977A1E602B97A8CB007BBD6F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				977A1E5F2B97A8CB007BBD6F /* GRS InterfaceA.app */,
+				977A1E702B97A8CD007BBD6F /* GRS InterfaceATests.xctest */,
+				977A1E7A2B97A8CD007BBD6F /* GRS InterfaceAUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		977A1E612B97A8CB007BBD6F /* GRS InterfaceA */ = {
+			isa = PBXGroup;
+			children = (
+				977A1E622B97A8CB007BBD6F /* GRS_InterfaceAApp.swift */,
+				977A1E642B97A8CB007BBD6F /* ContentView.swift */,
+				977A1E662B97A8CD007BBD6F /* Assets.xcassets */,
+				977A1E6B2B97A8CD007BBD6F /* GRS_InterfaceA.entitlements */,
+				977A1E682B97A8CD007BBD6F /* Preview Content */,
+			);
+			path = "GRS InterfaceA";
+			sourceTree = "<group>";
+		};
+		977A1E682B97A8CD007BBD6F /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				977A1E692B97A8CD007BBD6F /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		977A1E732B97A8CD007BBD6F /* GRS InterfaceATests */ = {
+			isa = PBXGroup;
+			children = (
+				977A1E742B97A8CD007BBD6F /* GRS_InterfaceATests.swift */,
+			);
+			path = "GRS InterfaceATests";
+			sourceTree = "<group>";
+		};
+		977A1E7D2B97A8CD007BBD6F /* GRS InterfaceAUITests */ = {
+			isa = PBXGroup;
+			children = (
+				977A1E7E2B97A8CD007BBD6F /* GRS_InterfaceAUITests.swift */,
+				977A1E802B97A8CD007BBD6F /* GRS_InterfaceAUITestsLaunchTests.swift */,
+			);
+			path = "GRS InterfaceAUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		977A1E5E2B97A8CB007BBD6F /* GRS InterfaceA */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 977A1E842B97A8CD007BBD6F /* Build configuration list for PBXNativeTarget "GRS InterfaceA" */;
+			buildPhases = (
+				977A1E5B2B97A8CB007BBD6F /* Sources */,
+				977A1E5C2B97A8CB007BBD6F /* Frameworks */,
+				977A1E5D2B97A8CB007BBD6F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "GRS InterfaceA";
+			productName = "GRS InterfaceA";
+			productReference = 977A1E5F2B97A8CB007BBD6F /* GRS InterfaceA.app */;
+			productType = "com.apple.product-type.application";
+		};
+		977A1E6F2B97A8CD007BBD6F /* GRS InterfaceATests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 977A1E872B97A8CD007BBD6F /* Build configuration list for PBXNativeTarget "GRS InterfaceATests" */;
+			buildPhases = (
+				977A1E6C2B97A8CD007BBD6F /* Sources */,
+				977A1E6D2B97A8CD007BBD6F /* Frameworks */,
+				977A1E6E2B97A8CD007BBD6F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				977A1E722B97A8CD007BBD6F /* PBXTargetDependency */,
+			);
+			name = "GRS InterfaceATests";
+			productName = "GRS InterfaceATests";
+			productReference = 977A1E702B97A8CD007BBD6F /* GRS InterfaceATests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		977A1E792B97A8CD007BBD6F /* GRS InterfaceAUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 977A1E8A2B97A8CD007BBD6F /* Build configuration list for PBXNativeTarget "GRS InterfaceAUITests" */;
+			buildPhases = (
+				977A1E762B97A8CD007BBD6F /* Sources */,
+				977A1E772B97A8CD007BBD6F /* Frameworks */,
+				977A1E782B97A8CD007BBD6F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				977A1E7C2B97A8CD007BBD6F /* PBXTargetDependency */,
+			);
+			name = "GRS InterfaceAUITests";
+			productName = "GRS InterfaceAUITests";
+			productReference = 977A1E7A2B97A8CD007BBD6F /* GRS InterfaceAUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		977A1E572B97A8CB007BBD6F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					977A1E5E2B97A8CB007BBD6F = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					977A1E6F2B97A8CD007BBD6F = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 977A1E5E2B97A8CB007BBD6F;
+					};
+					977A1E792B97A8CD007BBD6F = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 977A1E5E2B97A8CB007BBD6F;
+					};
+				};
+			};
+			buildConfigurationList = 977A1E5A2B97A8CB007BBD6F /* Build configuration list for PBXProject "GRS InterfaceA" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 977A1E562B97A8CB007BBD6F;
+			productRefGroup = 977A1E602B97A8CB007BBD6F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				977A1E5E2B97A8CB007BBD6F /* GRS InterfaceA */,
+				977A1E6F2B97A8CD007BBD6F /* GRS InterfaceATests */,
+				977A1E792B97A8CD007BBD6F /* GRS InterfaceAUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		977A1E5D2B97A8CB007BBD6F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				977A1E6A2B97A8CD007BBD6F /* Preview Assets.xcassets in Resources */,
+				977A1E672B97A8CD007BBD6F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		977A1E6E2B97A8CD007BBD6F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		977A1E782B97A8CD007BBD6F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		977A1E5B2B97A8CB007BBD6F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				977A1E652B97A8CB007BBD6F /* ContentView.swift in Sources */,
+				977A1E632B97A8CB007BBD6F /* GRS_InterfaceAApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		977A1E6C2B97A8CD007BBD6F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				977A1E752B97A8CD007BBD6F /* GRS_InterfaceATests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		977A1E762B97A8CD007BBD6F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				977A1E7F2B97A8CD007BBD6F /* GRS_InterfaceAUITests.swift in Sources */,
+				977A1E812B97A8CD007BBD6F /* GRS_InterfaceAUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		977A1E722B97A8CD007BBD6F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 977A1E5E2B97A8CB007BBD6F /* GRS InterfaceA */;
+			targetProxy = 977A1E712B97A8CD007BBD6F /* PBXContainerItemProxy */;
+		};
+		977A1E7C2B97A8CD007BBD6F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 977A1E5E2B97A8CB007BBD6F /* GRS InterfaceA */;
+			targetProxy = 977A1E7B2B97A8CD007BBD6F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		977A1E822B97A8CD007BBD6F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		977A1E832B97A8CD007BBD6F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		977A1E852B97A8CD007BBD6F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "GRS InterfaceA/GRS_InterfaceA.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"GRS InterfaceA/Preview Content\"";
+				DEVELOPMENT_TEAM = 7QPZTLEJ7L;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gamerocketstudio.GRS-InterfaceA";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		977A1E862B97A8CD007BBD6F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "GRS InterfaceA/GRS_InterfaceA.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"GRS InterfaceA/Preview Content\"";
+				DEVELOPMENT_TEAM = 7QPZTLEJ7L;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gamerocketstudio.GRS-InterfaceA";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		977A1E882B97A8CD007BBD6F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7QPZTLEJ7L;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gamerocketstudio.GRS-InterfaceATests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GRS InterfaceA.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/GRS InterfaceA";
+			};
+			name = Debug;
+		};
+		977A1E892B97A8CD007BBD6F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7QPZTLEJ7L;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gamerocketstudio.GRS-InterfaceATests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GRS InterfaceA.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/GRS InterfaceA";
+			};
+			name = Release;
+		};
+		977A1E8B2B97A8CD007BBD6F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7QPZTLEJ7L;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gamerocketstudio.GRS-InterfaceAUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "GRS InterfaceA";
+			};
+			name = Debug;
+		};
+		977A1E8C2B97A8CD007BBD6F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7QPZTLEJ7L;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gamerocketstudio.GRS-InterfaceAUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "GRS InterfaceA";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		977A1E5A2B97A8CB007BBD6F /* Build configuration list for PBXProject "GRS InterfaceA" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				977A1E822B97A8CD007BBD6F /* Debug */,
+				977A1E832B97A8CD007BBD6F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		977A1E842B97A8CD007BBD6F /* Build configuration list for PBXNativeTarget "GRS InterfaceA" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				977A1E852B97A8CD007BBD6F /* Debug */,
+				977A1E862B97A8CD007BBD6F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		977A1E872B97A8CD007BBD6F /* Build configuration list for PBXNativeTarget "GRS InterfaceATests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				977A1E882B97A8CD007BBD6F /* Debug */,
+				977A1E892B97A8CD007BBD6F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		977A1E8A2B97A8CD007BBD6F /* Build configuration list for PBXNativeTarget "GRS InterfaceAUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				977A1E8B2B97A8CD007BBD6F /* Debug */,
+				977A1E8C2B97A8CD007BBD6F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 977A1E572B97A8CB007BBD6F /* Project object */;
+}
